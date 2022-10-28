@@ -35,7 +35,8 @@
 
             <form class="login100-form validate-form" id="testeo" method="post" name="checker" action="" onsubmit="enviarDatosAsistente(); return false;">
                 <div class="img-form">
-                    <img src="./assets/logos/right_img.png" alt="IMG">
+                    <!--<img src="./assets/logos/right_img.png" alt="IMG">-->
+                    <img src=<?= "./assets/logos/conf_".$_GET["hora"].".png"; ?> alt="IMG">
                 </div>
                 <span class="login100-form-title">Bienvenido</span>
                 <div style="justify-content: center; text-align: center; color: var(--primary-color);" class="m-b-20"><small style="justify-self: center;">Para registrar tu asistencia, proporciona los siguientes datos: <br> </small></div>
